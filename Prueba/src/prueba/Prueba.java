@@ -25,6 +25,9 @@ public class Prueba {
         m1 = JOptionPane.showInputDialog("escriba el primer mensaje");
         m2 = JOptionPane.showInputDialog("escriba el segundo mensaje");
         
+        System.out.println("El primer mensaje es: " + m1);
+        System.out.println("El primer segundo es: " + m2);
+        
     }
     
 }
