@@ -5,6 +5,9 @@
  */
 package prueba;
 
+import javax.swing.JOptionPane;
+
+
 /**
  *
  * @author josedavid
@@ -18,6 +21,10 @@ public class Prueba {
         // TODO code application logic here
         String m1;
         String m2;
+        
+        m1 = JOptionPane.showInputDialog("escriba el primer mensaje");
+        m2 = JOptionPane.showInputDialog("escriba el segundo mensaje");
+        
     }
     
 }
